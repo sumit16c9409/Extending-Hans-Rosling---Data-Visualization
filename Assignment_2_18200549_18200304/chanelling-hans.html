@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="./resources/css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<title>GapMinder World - Hans Rosling</title>
+</head>
+<body>
+	<nav>
+		<b>Gapminder World - Channelling Hans Rosling</b>
+		<div style="float:right;">Recreated by - Sumit Chavan and Nishant Sahay</div>
+	</nav>
+	<div class="content">
+		<div>
+
+			<div style="width: 196px;height : 50px;" class="widget">
+				<b>Country Trace</b>
+				<div style="font-size: 12px width:100%;">
+					<select id="countrylist" class="c-list" style="width:100%">
+						<option value="All">All Countries</option>
+					</select>
+				</div>
+			</div>
+			<div><img src= "./resources/images/leg.png"></div>
+			<div style="width: 196px;height : 50px; float:right; position:relative;margin-top:-5.5%" class="widget">
+				<b>Country Selection</b>
+				<select id="countrylist-bar"  class="c-list" style="width:40%;" >
+					<option value="None">None</option>
+				</select>
+				<select id="countrylist-bar2"  class="c-list" style="width:40%;" >
+					<option value="None">None</option>
+				</select>
+			</div>
+			<br style="clear: left;" />
+		</div>
+		<div style="clear:both;"></div>
+		<div id="charts" style="margin-top:-1%">
+			<div id="scatter-plot"></div>
+			<div id="pillar-bar-graph"><svg width="650" height="450"></div>
+		</div>
+		<div style="clear:both;"></div>
+		<div style="clear:both;"></div>
+		<div id="animate-widget" style ="margin-left:-320px;">
+				<b style="position: relative;top: -7px;">Year-wise Selection:</b>
+				<select id="yearlist"></select>
+				<button id="animate" style="opacity:1">
+				<img src="./resources/images/HTML_to_SVG (4).svg" style="width:30px; height:30px;"></img>
+		</button>
+				<button id="unanimate" style="opacity:0.3">
+			<img src="./resources/images/dash.svg" style="width:30px; height:30px;"></img>
+				</button>
+				<button id="stop" onclick="stop()" style="opacity:1">
+					<img src="./resources/images/stop.svg" style="width:30px; height:30px;"></img>
+				</button>
+				<input type="range" min="0" max="10" value="0" class="slider" id="yearSlider" style="width:25%">
+			</div>
+		<div style="clear:both;"></div>
+		<div style="clear:both;"></div>
+
+		<script src="./resources/js/d3.v4.js"></script>
+		<script src="./resources/js/script.js"></script>
+			<br><br><br>
+		<div style="font-size:13px">
+			<b>References:</b><br><hr>
+			https://bl.ocks.org/bricedev/0d95074b6d83a77dc3ad<br>
+					https://bl.ocks.org/<br>w3.schools
+		<div>
+	</div>
+</body>
+<html>

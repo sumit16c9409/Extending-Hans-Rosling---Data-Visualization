@@ -1,0 +1,229 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	margin:0px;
+	padding-bottom:10px;
+	background-color: #F1F3F3
+}
+.content{
+	padding:10px;
+}
+.title
+{
+  font-weight: 700
+}
+text {
+  font-size: 12px;
+}
+.sub-title{
+  font-size: 11px;
+}
+text.arrow {
+  font-size: 70px;
+}
+
+.backgroundlabel {
+  font-size: 250px;
+  fill: #e1e1e1;
+  letter-spacing: 30px;
+}
+
+.dot {
+  stroke: #000;
+  opacity: 0.9;
+}
+
+.countryText {
+  opacity: 1;
+}
+
+.label {
+    font-size: 14px;
+	font-weight: 700;
+}
+.label.bar-labels{
+    font-size: 11px!important;
+}
+.regionlabel,.regionlabel_g,.coastlinelabel{
+    font-size: 0.8em;
+	font-weight: 500;
+}
+.ckbox-text{
+	font-size:12px;
+}
+g.tick text, .label {
+  fill: rgb(0, 0, 0);
+}
+
+#animate,#unanimate,#yearSlider,#stop,#reset  {
+  font-size: 1em;
+  border: 0;
+  padding: 0;
+  margin: 7px 5px 0 0;
+  display:inline;
+  background:none;
+}
+#animate svg,#unanimate svg,#stop svg
+{
+    margin-top: 5px;
+    height: 25px;
+    background: white;
+    border-radius: 40px;
+}
+
+#animate svg path,#unanimate svg path,#stop svg path {
+    fill: #000094;
+}
+
+.year-button  {
+  font-size: 0.7em;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 1px;
+  display:inline;
+}
+.year-selected  {
+  background: rgb(100, 149, 237);
+}
+
+.m10
+{
+margin-top:5px
+}
+
+#animate-widget{
+	width: 100%;
+    padding: 0;
+    background: transparent;
+	text-align:center;
+}
+
+.widget {
+	margin: 5px 5px 5px 0;
+	height: 100px;
+	padding: 7px;
+	background: #ffffff;
+	float: left;
+}
+.widget button{
+	background:none;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 70%;
+    height: 25px;
+    background: #d3d3d3!important;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #000094;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #000094;
+    cursor: pointer;
+}
+
+.tt {
+    position: absolute;
+    text-align: left;
+    padding: 5px;
+    font: 14px sans-serif;
+    background: none repeat scroll 0 0 white;
+    border: 1px solid black	;
+    /*border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;*/
+    color: black;
+    font: 12px sans-serif;
+    cursor: default;
+}
+.countrylabel,.yearlabel{
+    cursor: default;
+}
+.disable{
+	cursor: not-allowed;
+}
+.enable{
+	cursor: pointer;
+}
+.gridline line {
+  stroke: lightgrey;
+  stroke-opacity: 0.5;
+  shape-rendering: crispEdges;
+}
+#charts div{
+	float:left
+}
+.visible-bar-charts{
+	display:block;
+}
+.hidden-bar-charts{
+	display:none;
+}
+input[type="checkbox"]{
+	margin:0;
+}
+#yearlist{
+	margin: 5px;
+    position: relative;
+    top: -7px;
+    background: white;
+    font-size: 18px;
+    color: #000094;
+}
+#yearlist option{
+	font-size: 18px;
+}
+hr{
+	margin: 3px 0 5px 0;
+    height: 0px;
+    border: 1px solid #0d0d0d;
+}
+nav{
+	font-size:20px; background:#343a40; padding:5px; color:white;
+}
+.compare1 {
+	fill: #1F77B4;
+}
+
+.compare2 {
+	fill: #AEC7E8;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.x path {
+	display: none;
+}
+.toolTip {
+	position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
